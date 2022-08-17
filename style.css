@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #014753;
+  --green: #41b883;
+  --red: #dc3545;
+  --white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 184, 131, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.container {
+  border: solid 2px var(--white);
+  padding: 30px 40px;
+  width: 40%;
+  min-width: 700px;
+}
+
+.container .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  color: var(--white);
+}
+
+.container .controls .control {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.container .controls .control input {
+    height: 30px;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.1rem;
+
+    background-color: inherit;
+    border-bottom: var(--primary-color) 2px solid;
+    color: var(--white);
+    transition: all .2s ease-in-out;
+}
+
+.container .controls .control input:focus {
+    background-color: var(--primary-color);
+}
+
+.container .controls .control select {
+    color: var(--white);
+    height: 30px;
+    width: 55%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding-left: 22px;
+    transition: all .2s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.container .buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .buttons button {
+    width: 30%;
+    height: 40px;
+    font-size: .9rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--white);
+    transition: all .2s ease-in-out;
+}
+
+.container .buttons button:hover {
+    filter: brightness(1.1);
+}
+
+.container .buttons button#generateTable {
+  background-color: var(--green);
+}
+
+.container .buttons button#clearTable {
+    background-color: var(--red);
+  }
+
+.container .table {
+    margin-top: 20px;
+    background-color: var(--white);
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.container .table p {
+  text-align: center;
+}
