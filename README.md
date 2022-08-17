@@ -2,7 +2,7 @@
   Gerador de Tabuada
 </h1>
 
-![Mentalista - Google Chrome 12_08_2022 16_08_53](https://user-images.githubusercontent.com/93893533/184433131-1b38ad76-1587-4f7f-9610-7054e69c859a.png)
+![Tabuada - Google Chrome 17_08_2022 14_36_42](https://user-images.githubusercontent.com/93893533/185205883-6c8d377f-305c-428f-9117-3c4c2c9f1e5b.png)
 
 
 <br />
@@ -11,7 +11,7 @@
 
 Projeto de um gerador de tabuada personalizada em PHP
 
- <h3 align="center"><a target="_blank" href="https://mentalist-php.herokuapp.com/">Veja o gerador funcionando 👀</a></h3>
+ <h3 align="center"><a target="_blank" href="https://gerador-tabuada.herokuapp.com/">Veja o gerador funcionando 👀</a></h3>
 
 <hr>
 <br>
