@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gerador de Tabuada
+  Gerador de Tabuada 🔢
 </h1>
 
 <div align="center">
